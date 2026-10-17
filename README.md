@@ -6,7 +6,7 @@
 
 I was bored of manually wiring up 64 LEDs every time I needed a small display, so I designed one. It is a simple 8×8 LED matrix made of green LEDs that can be driven from an Arduino, ESP32, or almost any other microcontroller available.
 
-It makes use of two **74HC595 shift registers** and eight **2N4402 PNP transistors**, thus, allowing to control the entire 64 LEDs array using **3 pins** (Data, Clock, Latch).
+It uses a **MAX7219 LED driver IC** to control the complete **8×8 (64 LEDs) matrix** with only a few communication pins. The MAX7219 handles the row and column scanning internally and communicates with the microcontroller through a **3-wire SPI interface (Data, Clock, and Chip Select)**.
 
 It was also a nice opportunity to gain some PCB design experience, routing 64 LEDs seemed quite easy but turns out otherwise once you start doing it.
 
