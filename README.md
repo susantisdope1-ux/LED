@@ -1,17 +1,5 @@
 # 8×8 LED Matrix PCB
 
-<p align="center">
-  <img src="images/schematic.png" width="700" alt="Schematic">
-</p>
-
-<p align="center">
-  <img src="images/pcb.png" width="700" alt="PCB Layout">
-</p>
-
-<p align="center">
-  <img src="images/3d-front.png" width="340" alt="3D Front">
-  <img src="images/3d-back.png" width="340" alt="3D Back">
-</p>
 
 ---
 ## About
@@ -34,6 +22,30 @@ It was also a nice opportunity to gain some PCB design experience, routing 64 LE
 - Nice for animations, scrolling text, displaying icons, or studying multiplexing concepts
 - 
 
+# 8×8 LED Matrix Images
+
+## Schematic Design
+
+<p align="center">
+  <img width="700" alt="Schematic Design" src="https://github.com/user-attachments/assets/8abf495c-bdd5-4d88-b147-99726618a400" />
+</p>
+
+---
+
+## PCB Layout
+
+<p align="center">
+  <img width="700" alt="PCB Layout" src="https://github.com/user-attachments/assets/bdd54f8a-cf8e-4ee0-8aa4-fb2070002277" />
+</p>
+
+---
+
+## 3D PCB View
+
+<p align="center">
+  <img width="420" alt="3D Front View" src="https://github.com/user-attachments/assets/7877740c-46d7-47fc-8bb0-7d44d88396bc" />
+  <img width="420" alt="3D Back View" src="https://github.com/user-attachments/assets/48cd6bd9-9c91-4fe9-92f8-1a8c20bc6d84" />
+</p>
 ## Pinout
 
 | Pin   | What it does  |
