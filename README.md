@@ -33,7 +33,8 @@ It was also a good chance to get some PCB designing practice, even routing 64 LE
 ## PCB Layout
 
 <p align="center">
-  <img width="700" alt="PCB Layout" src="https://github.com/user-attachments/assets/bdd54f8a-cf8e-4ee0-8aa4-fb2070002277" />
+ <img width="666" height="711" alt="Screenshot 2026-10-27 120910" src="https://github.com/user-attachments/assets/d474f2b6-706f-4f4f-bdf8-b95ce765a673" />
+
 </p>
 
 ---
@@ -41,8 +42,10 @@ It was also a good chance to get some PCB designing practice, even routing 64 LE
 ## 3D PCB View
 
 <p align="center">
-  <img width="420" alt="3D Front View" src="https://github.com/user-attachments/assets/7877740c-46d7-47fc-8bb0-7d44d88396bc" />
-  <img width="420" alt="3D Back View" src="https://github.com/user-attachments/assets/48cd6bd9-9c91-4fe9-92f8-1a8c20bc6d84" />
+ 
+ <img width="782" height="657" alt="Screenshot 2026-10-27 121000" src="https://github.com/user-attachments/assets/aa7b11c6-993c-4348-a44a-6b522f09a7e7" />
+<img width="632" height="601" alt="Screenshot 2026-10-27 120952" src="https://github.com/user-attachments/assets/2ba83648-cc6c-4edc-a900-58f2a60e7344" />
+
 </p>
 ## Pinout
 
