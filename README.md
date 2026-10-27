@@ -103,6 +103,56 @@ All prices are given in USD and can vary depending on availability and JLCPCB pr
 | **JLCPCB Assembly Total** | **$40.28** |
 
 ---
+## Example Code (Arduino)
+
+The following example is used to draw a smiley face on the 8×8 LED Matrix using the MAX7219 library.
+
+```cpp
+#include <LedControl.h>
+
+// DIN, CLK, CS
+LedControl matrix = LedControl(11, 13, 10, 1);
+
+byte smiley[8] = {
+  B00111100,
+  B01000010,
+  B10100101,
+  B10000001,
+  B10100101,
+  B10011001,
+  B01000010,
+  B00111100
+};
+
+void setup() {
+  matrix.shutdown(0, false);   // Wake up display
+  matrix.setIntensity(0, 8);   // Brightness (0-15)
+  matrix.clearDisplay(0);
+
+  // Display the smiley
+  for (int row = 0; row < 8; row++) {
+    matrix.setRow(0, row, smiley[row]);
+  }
+}
+
+void loop() {
+  // Nothing to do
+}
+```
+
+### Connections
+
+| MAX7219 | Arduino |
+|---------|----------|
+| VCC | 5V |
+| GND | GND |
+| DIN | D11 |
+| CLK | D13 |
+| CS | D10 |
+
+### Results
+
+ The output obtained is that a smiley face will be displayed on the 8×8 LED Matrix after turning on the circuit.
 
 ## Reasons for building this 
 
