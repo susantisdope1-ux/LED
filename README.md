@@ -4,23 +4,21 @@
 ---
 ## About
 
-I was bored of manually wiring up 64 LEDs every time I needed a small display, so I designed one. It is a simple 8×8 LED matrix made of green LEDs that can be driven from an Arduino, ESP32, or almost any other microcontroller available.
+I got tired of wiring 64 LEDs each time I needed a small display so I decided to make one. This is a small 8x8 LED Matrix of green LEDs which can be powered by any microcontroller like Arduino or ESP32 or any other microcontroller for that matter.
 
-It uses a **MAX7219 LED driver IC** to control the complete **8×8 (64 LEDs) matrix** with only a few communication pins. The MAX7219 handles the row and column scanning internally and communicates with the microcontroller through a **3-wire SPI interface (Data, Clock, and Chip Select)**.
+This small project employs a **MAX7219 LED driver IC** which controls the entire **8x8 (64 LEDs) matrix** using just a few communication pins. The MAX7219 chip takes care of scanning rows and columns inside and communicates with the microcontroller via a **3-pin SPI interface (Data, Clock & Chip Select)**.
 
-It was also a nice opportunity to gain some PCB design experience, routing 64 LEDs seemed quite easy but turns out otherwise once you start doing it.
+It was also a good chance to get some PCB designing practice, even routing 64 LEDs didn't seem that difficult until you actually do it.
 
 ---
+## Characteristics
 
-## Features
-
-- 64 green LEDs in an 8x8 arrangement
-- Requires just 3 control pins: Data, Clock, Latch
-- Can be used with an Arduino, ESP32, STM32, Raspberry Pi Pico, and any other microcontroller supporting 5V logic (or having proper level shifters)
-- Easy to solder, no small or tricky components
-- Small size
-- Nice for animations, scrolling text, displaying icons, or studying multiplexing concepts
-- 
+- 64 green LEDs in an 8x8 matrix formation
+- Needs only 3 controlling pins - Data, Clock, and Latch
+- Works fine with an Arduino, ESP32, STM32
+- can work with 5V 
+- Easy to solder, does not contain any difficult-to-solder elements
+- Suitable for animation, scrolling texts, showing icons, or learning multiplexing basics
 
 # 8×8 LED Matrix Images
 
@@ -116,25 +114,15 @@ During the process, I learned a lot about:
 
 ---
 
-## What you can do with it
+## What we can do with it
 
 - LED animations 
-- Scrolling text 
 - Displaying icons and pixel art 
 - Digital Clock 
-- Mini games 
-- Status display
 
 ---
 
-## Programming it 
 
-Use anything that you want:
-
-- Arduino IDE 
-- PlatformIO 
-- ESP-IDF
-- STM32CubeIDE
 
 ---
 
